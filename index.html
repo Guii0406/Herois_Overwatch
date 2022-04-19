@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="estilo/main.css">
+    <script src="javascript/main.js"></script>
+</head>
+<body id="corpo">
+
+    <div class="all">
+        <div class="selecao">
+            <label> Escolha o Herói
+                <select name="herois" id="herois" onchange="aparecer()">
+                    <option value="">Selecione</option>
+                    <option value="Hanzo">Hanzo</option>
+                    <option value="Genji">Genji</option>
+                    <option value="Mcree">Mcree</option>
+                    <option value="Widow">WidowMaker</option>    
+                </select>
+            </label>
+        </div>
+
+        <div class="box" id="Hanzo">
+            <div id="foto">
+                <img id="imghanzo" src="img/hanzo1.jpg" alt="Hanzo" onmouseout="ult2()" onmouseover="ult()">
+                <div class="ult"><p>Ryuu-ga,-Waga-teki-wo,Ku-ra-u!</p></div>
+            </div>
+            <div id="biografia">
+                <header><h2 id="hanzo-title">Hanzo</h2></header>
+                <p>Aperfeiçoando suas habilidades como arqueiro e assassino, Hanzo Shimada almeja mostrar-se digno como guerreiro sem par.</p>
+
+                <p>A família Shimada foi estabelecida séculos atrás, um clã de assassinos cujo poder cresceu através dos anos, permitindo que construíssem um vasto império criminal que lucrava de vantajosas negociações de armas e substâncias ilegais. Como filho mais velho do chefe da família, Hanzo tinha o dever de suceder seu pai e governar o império Shimada. Desde jovem, ele foi treinado para essa responsabilidade, demonstrando aptidão natural para a liderança e possuindo um entendimento inato de estratégias e táticas. Ele também se sobressaia em áreas práticas: era um prodígio em artes marciais, esgrima e no arco e flecha.</p>
+                        
+                <p> Com a morte de seu pai, os anciões do clã deram instruções para que Hanzo endireitasse seu rebelde irmão mais novo, para que ele também pudesse ajudar a governar o império Shimada. Quando seu irmão se recusou, Hanzo foi forçado a matá-lo. Este ato partiu o coração de Hanzo, levando-o a rejeitar o legado de seu pai, fazendo com que ele abandonasse o clã e tudo pelo que trabalhara tanto para atingir.</p>
+                        
+                <p>Agora, Hanzo viaja o mundo, aperfeiçoando suas habilidades como guerreiro, tentando restaurar sua honra e dar descanso aos fantasmas de seu passado.</p>
+        </div>
+        </div>
+        <div class="box" id="Genji">
+            <div id="foto">
+                <img src="img/genji2.png" alt="Genji">
+                <div class="ult"><p>Ryūjin no ken wo kūrae!</p></div>
+
+            </div>
+            <div id="biografia">
+                <header><h2 id="genji-title">Genji</h2></header>
+
+                <p>O ciborgue Genji Shimada fez as pazes com seu corpo aprimorado que ele antes rejeitava e, ao fazê-lo, pode descobrir uma humanidade maior.</p>
+
+                <p>Como filho mais novo do mestre do clã ninja dos Shimada, Genji viveu uma vida de luxo e privilégio. Ele tinha pouco interesse nos negócios ilegais de sua família, e apesar de gostar e ser excelente em seu treino ninja, ele passou a maior parte de seu tempo curtindo uma vida de playboy. Muitos no clã consideravam o estilo de vida do Genji um perigo para o clã e tinham ressentimento contra seu pai por protegê-lo. Com a morte do líder do clã, o irmão mais velho de Genji, Hanzo, exigiu que Genji tivesse um papel mais ativo no império de seu pai falecido. Genji se recusou, enfurecendo Hanzo. A tensão entre os irmãos acabou em um confronto violento que deixou Genji a beira da morte.</p>
+                
+                <p>Hanzo acreditou que tinha matado seu irmão, mas Genji foi resgatado pela Overwatch e a intervenção da Dra. Angela Ziegler. A força de segurança global via Genji como um possível recurso em suas operações para deter o clã Shimada. Como os ferimentos de Genji o deixaram a beira da morte, a Overwatch se ofereceu para reconstruir seu corpo em troca de sua ajuda. Ele passou por um longo processo de cibernetização, o que aumentou sua velocidade e agilidade naturais e potencializou suas habilidades ninja. Transformado em uma arma viva, Genji tomou como seu dever desmantelar o império criminoso de sua família.</p>
+                
+                
+        </div>
+        </div>
+
+        <div class="box" id="Mcree">
+            <div id="foto">
+                <img src="img/mcree.jpg" alt="Mcree">
+                <div class="ult"><p>It's High Noon.</p></div>
+
+            </div>
+            <div id="biografia">
+                <header><h2 id="mcree-title">Mcree</h2></header>
+
+                <p>Armado com seu revólver Pacificador, o fora da lei Jesse McCree faz justiça com seus próprios termos.</p>
+
+                <p>McCree já tinha uma reputação como membro da notória gangue Deadlock, que traficava armas ilícitas e equipamentos militares por todo o Sudoeste Americano, quando ele e seus comparsas foram apreendidos por uma operação da Overwatch. Com suas habilidades como atirador e sua engenhosidade, ele foi dado a escolha de apodrecer em uma prisão de segurança máxima ou de se juntar à Blackwatch, a divisão de operações secretas da Overwatch. Ele escolheu a segunda opção.</p>
+
+                <p>Apesar de cínico no começo, ele passou a acreditar que podia compensar pelos pecados que cometera no passado, acertando as injustiças do mundo. McCree se satisfez com a flexibilidade delegada ao grupo clandestino Blackwatch, liberto de burocracias e protocolos. Mas à medida que a influência da Overwatch enfraqueceu, membros rebeldes dentro da Blackwatch tramaram para derrubar a organização e usá-la para seus próprios fins. Sem querer participar dessas disputas internas, McCree resolveu partir sozinho e desapareceu.</p>
+
+                <p>Anos depois, ele ressurgiu como um atirador mercenário. Mas apesar de seus talentos serem buscados por grupos grandes e pequenos, ele só luta por causas que acredita serem justas.</p>
+        </div>
+        
+
+        </div>
+
+        <div class="box" id="Widow">
+        <div id="foto">
+            <img src="img/widow.jpg" alt="Widow">
+            <div class="ult"><p>No one can hide from my sight.</p></div>
+
+        </div>
+        <div id="biografia">
+            <header><h2 id="widow-title">WidowMaker</h2></header>
+
+            <p>Widowmaker é a assassina perfeita: uma matadora paciente e impiedosamente eficiente que não mostra emoção nem remorso.</p>
+
+            <p>Acredita-se que, na sua antiga vida, Widowmaker foi casada com Gérard Lacroix, um agente da Overwatch que liderava operações contra a organização terrorista Talon. Depois de diversas tentativas frustradas de eliminar Gérard, a Talon decidiu mudar seu foco para sua esposa, Amélie. Os agentes da Talon a sequestraram e a sujeitaram a um intenso programa de recondicionamento neural. Eles destruíram sua vontade, suprimiram sua personalidade e a reprogramaram como uma agente dormente. Ela eventualmente foi encontrada pelos agentes da Overwatch, aparentemente sem nenhum arranhão, e voltou à sua vida normal.</p>
+
+            <p>Duas semanas depois, ela matou Gérard enquanto ele dormia.</p>
+
+            <p>Com sua missão concluída, Amélie voltou à Talon e eles concluíram o processo de transformá-la em uma arma viva. Ela recebeu extenso treinamento em artes ocultas e, então, sua fisiologia foi alterada, reduzindo drasticamente seu ritmo cardíaco, o que deixou sua pele azul e fria, e entorpeceu sua capacidade de sentir emoções humanas. Amélie já não existia mais.</p>
+
+    </div>
+    
+
+</div>
+    </div>
+</body>
+</html>
